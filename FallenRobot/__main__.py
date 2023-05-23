@@ -76,20 +76,20 @@ PM_START_TEXT = """
 ──────────────────
 
 buttons = [
-        InlineKeyboardButton(text=" ᴀʙᴏᴜᴛ ᴍᴇʜ ", callback_data="fallen_"),
-        InlineKeyboardButton(text=" ᴍᴜsɪᴄ ʙσᴛ ", url=f"https://t.me/agoramusic_bot"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ᴍᴇʜ", callback_data="fallen_"),
+        InlineKeyboardButton(text="ᴍᴜsɪᴄ ʙσᴛ", url=f"https://t.me/agoramusic_bot"),
     ],
     [
-        InlineKeyboardButton(text=" sᴛꝛɪɴɢ ʙσᴛ ", url=f"https://t.me/agoraString_bot"),
-        InlineKeyboardButton(text=" ᴧᴅᴅᴇꝛ ʙσᴛ ", url=f"https://t.me/fcrxta_bot"),
+        InlineKeyboardButton(text="sᴛꝛɪɴɢ ʙσᴛ", url=f"https://t.me/agoraString_bot"),
+        InlineKeyboardButton(text="ᴧᴅᴅᴇꝛ ʙσᴛ", url=f"https://t.me/fcrxta_bot"),
     ],
     [
-        InlineKeyboardButton(text=" ғᴇᴅ ʟɪɴᴋ ", url=f"https://t.me/TeamAgora/36"),
-        InlineKeyboardButton(text=" ᴘꝛσᴍσᴛɪσɴ ʙσᴛ ", url=f"https://t.me/xdtelegrambot"),
+        InlineKeyboardButton(text="ғᴇᴅ ʟɪɴᴋ", url=f"https://t.me/TeamAgora/36"),
+        InlineKeyboardButton(text="ᴅɪʀᴇᴄᴛ ᴅᴇᴘʟᴏʏ", url=f"https://t.me/TeamAgora/37"),
     ],
     [
-        InlineKeyboardButton(text=" ᴍʏ ʜᴜʙʙʏ ", url=f"https://t.me/MR_AGORA"),
-        InlineKeyboardButton(text=" ᴍʏ ʟσᴠᴇꝛ ", url=f"https://t.me/oye_baby_ji_suniye"),
+        InlineKeyboardButton(text="ᴍʏ ʜᴜʙʙʏ", url=f"https://t.me/MR_AGORA"),
+        InlineKeyboardButton(text="ᴍʏ ʟσᴠᴇꝛ", url=f"https://t.me/oye_baby_ji_suniye"),
 ]
 
 HELP_STRINGS = f"""
