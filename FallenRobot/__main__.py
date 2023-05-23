@@ -76,7 +76,6 @@ PM_START_TEXT = """
 ──────────────────
 
 buttons = [
-    [
         InlineKeyboardButton(text=" ᴀʙᴏᴜᴛ ᴍᴇʜ ", callback_data="fallen_"),
         InlineKeyboardButton(text=" ᴍᴜsɪᴄ ʙσᴛ ", url=f"https://t.me/agoramusic_bot"),
     ],
@@ -91,7 +90,6 @@ buttons = [
     [
         InlineKeyboardButton(text=" ᴍʏ ʜᴜʙʙʏ ", url=f"https://t.me/MR_AGORA"),
         InlineKeyboardButton(text=" ᴍʏ ʟσᴠᴇꝛ ", url=f"https://t.me/oye_baby_ji_suniye"),
-    ],
 ]
 
 HELP_STRINGS = f"""
