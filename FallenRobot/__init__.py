@@ -119,7 +119,7 @@ else:
 
     try:
         DRAGONS = set([Config.DRAGONS])
-        DEV_USERS = set(int(x) for x in Config.DEV_USERS or [])
+        DEV_USERS = set([Config.DEV_USERS])
     except ValueError:
         raise Exception("Your sudo or dev users list does not contain valid integers.")
 
