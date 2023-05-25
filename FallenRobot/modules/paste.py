@@ -3,11 +3,11 @@ import os
 import re
 
 import aiofiles
+from aiohttp import ClientSession
 from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton
 
-from FallenRobot import aiohttpsession as session
 from FallenRobot import pbot as app
 from FallenRobot.utils.errors import capture_err
 from FallenRobot.utils.pastebin import paste
