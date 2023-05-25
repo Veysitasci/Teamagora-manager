@@ -97,7 +97,7 @@ iletişim: @nihilanth0
 
 buttons = [
         
-        InlineKeyboardButton(text="𝙱𝚎𝚗𝚒 𝙶𝚛𝚞𝚋𝚞𝚗𝚊 𝙴𝚔𝚕𝚎 ★", url=f"https://t.me/agoramusic_bot"),
+        InlineKeyboardButton(text="𝙱𝚎𝚗𝚒 𝙶𝚛𝚞𝚋𝚞𝚗𝚊 𝙴𝚔𝚕𝚎 ★",url=f"https://t.me/DolunayManager_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="𝙳𝚎𝚜𝚝𝚎𝚔 ☂", url=f"https://t.me/dolunaydestek"),
@@ -132,12 +132,17 @@ buttons = [
 ]
 
 HELP_STRINGS = f"""
-*» {BOT_NAME} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*
+*» {BOT_NAME}㊣
 
-➲ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀ ᴅᴏɴᴇ ɪᴛ.
-➲ /help  : ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.
-  ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.
-  ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ ᴍᴏᴅᴜʟᴇꜱ."""
+➥/start ʙᴇɴɪ ʙᴀꜱʟᴀᴛɪʀ.
+
+     
+
+➥/help ᴋᴜʟʟᴀɴɪʟᴀʙɪʟɪʀ ᴋᴏᴍᴜᴛʟᴀʀ ʙᴏʟᴜᴍᴜ.
+
+ 
+
+ᴋᴏᴍᴜᴛʟᴀʀ ʜᴀᴋᴋɪɴᴅᴀ ʙɪʟɢɪ ᴀʟᴍᴀᴋ ɪᴄɪɴ  ᴋᴀɴᴀʟɪᴍᴀ ɢᴏᴢ ᴀᴛᴀʙɪʟɪʀꜱɪɴɪᴢ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
