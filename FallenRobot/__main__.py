@@ -72,24 +72,48 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʏᴏ 🦋 * {}, 💜
-──────────────────
+Merhaba,
+
+             ◯     (kullanıcı adı)㊣     ◯
+
+ ╚══════════════════════╝
+
+☞ʙᴀᴢɪ ʜᴀʀɪᴋᴀ ᴠᴇ ᴋᴜʟʟᴀɴɪꜱʟɪ ᴏᴢᴇʟʟɪᴋʟᴇʀᴇ               
+
+    ꜱᴀʜɪᴘ ᴇɴ ɢᴜᴄʟᴜ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴜʙᴜ   
+
+    ʏᴏɴᴇᴛɪᴍ ʙᴏᴛᴜᴅᴜʀ.
+
+ ╔══════════════════════╗
+
+☞ᴍᴏᴅᴜʟʟᴇʀɪᴍ ᴠᴇ ᴋᴏᴍᴜᴛʟᴀʀɪᴍ ʜᴀᴋᴋɪɴᴅᴀ    
+
+    ʙɪʟɢɪ ᴀʟᴍᴀᴋ ɪᴄɪɴ ʏᴀʀᴅɪᴍ(/help) ʙᴜᴛᴏɴᴜɴᴀ       
+
+    ᴛɪᴋʟᴀʏɪɴɪᴢ.
+
+iletişim: @nihilanth0
+──────────────────"""
 
 buttons = [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ᴍᴇʜ", callback_data="fallen_"),
-        InlineKeyboardButton(text="ᴍᴜsɪᴄ ʙσᴛ", url=f"https://t.me/agoramusic_bot"),
+        
+        InlineKeyboardButton(text="𝙱𝚎𝚗𝚒 𝙶𝚛𝚞𝚋𝚞𝚗𝚊 𝙴𝚔𝚕𝚎 ★", url=f"https://t.me/agoramusic_bot"),
     ],
     [
-        InlineKeyboardButton(text="sᴛꝛɪɴɢ ʙσᴛ", url=f"https://t.me/agoraString_bot"),
-        InlineKeyboardButton(text="ᴧᴅᴅᴇꝛ ʙσᴛ", url=f"https://t.me/fcrxta_bot"),
+        InlineKeyboardButton(text="𝙳𝚎𝚜𝚝𝚎𝚔 ☂", url=f"https://t.me/dolunaydestek"),
+        
     ],
     [
-        InlineKeyboardButton(text="ғᴇᴅ ʟɪɴᴋ", url=f"https://t.me/TeamAgora/36"),
-        InlineKeyboardButton(text="ᴅɪʀᴇᴄᴛ ᴅᴇᴘʟᴏʏ", url=f"https://t.me/TeamAgora/37"),
+        
+
+        InlineKeyboardButton(text="𝚈𝚊𝚙𝚊𝚢 𝚉𝚎𝚔𝚊 𝙱𝚘𝚝𝚞 ♝", url=f"https://t.me/DolunayAIBot"),
+        InlineKeyboardButton(text="𝙼𝚞𝚣𝚒𝚔 𝙱𝚘𝚝𝚞 ♬", url=f"https://t.me/DolunayMusic_bot"),
+
+
     ],
     [
-        InlineKeyboardButton(text="ᴍʏ ʜᴜʙʙʏ", url=f"https://t.me/MR_AGORA"),
-        InlineKeyboardButton(text="ᴍʏ ʟσᴠᴇꝛ", url=f"https://t.me/oye_baby_ji_suniye"),
+        InlineKeyboardButton(text="𝙶𝚎𝚕𝚒𝚜𝚝𝚒𝚛𝚒𝚌𝚒 ☪", url=f"https://t.me/nihilanth0"),
+     ],
 ]
 
 
@@ -110,7 +134,7 @@ buttons = [
 HELP_STRINGS = f"""
 *» {BOT_NAME} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*
 
-➲ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ.
+➲ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀ ᴅᴏɴᴇ ɪᴛ.
 ➲ /help  : ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.
   ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.
   ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ ᴍᴏᴅᴜʟᴇꜱ."""
