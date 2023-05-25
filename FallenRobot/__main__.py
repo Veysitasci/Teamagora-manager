@@ -96,7 +96,7 @@ iletişim: @nihilanth0
 ──────────────────"""
 
 buttons = [
-        
+     [
         InlineKeyboardButton(text="𝙱𝚎𝚗𝚒 𝙶𝚛𝚞𝚋𝚞𝚗𝚊 𝙴𝚔𝚕𝚎 ★",url=f"https://t.me/DolunayManager_bot?startgroup=true"),
     ],
     [
@@ -114,21 +114,6 @@ buttons = [
     [
         InlineKeyboardButton(text="𝙶𝚎𝚕𝚒𝚜𝚝𝚒𝚛𝚒𝚌𝚒 ☪", url=f"https://t.me/nihilanth0"),
      ],
-]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
 
 HELP_STRINGS = f"""
