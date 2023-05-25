@@ -129,7 +129,7 @@ else:
         raise Exception("Your support users list does not contain valid integers.")
 
     try:
-        TIGER = set([Config.TIGER])
+        TIGERS = set([Config.TIGERS])
     except ValueError:
         raise Exception("Your tiger users list does not contain valid integers.")
 
